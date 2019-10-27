@@ -13,6 +13,6 @@ class Cocore < Formula
   end
 
   test do
-    assert_match "cocore", shell_output("#{bin}/cocore")
+    assert_match "cocore", shell_output("#{bin}/cocore -h")
   end
 end
